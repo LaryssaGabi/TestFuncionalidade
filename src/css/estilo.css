@@ -1,0 +1,106 @@
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    color: #fff;
+    text-align: center;
+}
+
+#textNew {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: transparent;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 9pt;
+}
+
+#textNew:hover {
+    transform: scale(1.1);
+    background-color: rgba(9, 119, 9, 0.514);
+    color: #fff;
+}
+
+.contador {
+    background-color: #fff;
+    text-align: center;
+    align-content: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#contadorStart{
+    margin-right: 11px;
+}
+
+
+#contadorStart,
+#zerarContador {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 12pt;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+#contadorStart:hover {
+    transform: scale(1.1);
+}
+
+#zerarContador:hover {
+    transform: scale(1.1);
+}
+
+.alterarCor {
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    width: 600px;
+    border-radius: 5px;
+}
+
+#corTexto {
+    padding-top: 12px;
+    font-size: 12pt;
+}
+
+#clickCor,
+#clickCorMove {
+    margin-bottom: 12px;
+    padding: 5px;
+    border: none;
+    background: transparent;
+    border-radius: 5px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.listas{
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    width: 600px;
+    width: 600px;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.titulo{
+padding-top: 8px;
+}
+
+#listaTarefa{
+    padding-bottom: 15px;
+}
