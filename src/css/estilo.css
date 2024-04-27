@@ -1,106 +1,107 @@
-ul{
-    list-style-type: none;
-    padding-left: 0;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    background-color: blueviolet;
+.container, .contador, .alterarCor, .listas {
+    margin-bottom: 40px;
 }
 
 .container {
-    color: #fff;
     text-align: center;
+    margin-top: 50px;
 }
 
-#textNew {
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#paragrafo {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
     border-radius: 5px;
-    margin-bottom: 15px;
-    border: transparent;
-    padding: 12px;
     cursor: pointer;
-    font-size: 9pt;
+    transition: background-color 0.3s ease;
 }
 
-#textNew:hover {
-    transform: scale(1.1);
-    background-color: rgba(9, 119, 9, 0.514);
-    color: #fff;
+button:hover {
+    background-color: #45a049;
 }
 
 .contador {
-    background-color: #fff;
     text-align: center;
-    align-content: center;
-    width: 400px;
-    height: 200px;
-    border-radius: 5px;
-    margin: 0 auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-#contadorStart{
-    margin-right: 11px;
 }
 
-
-#contadorStart,
-#zerarContador {
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    font-size: 12pt;
-    transition: box-shadow 0.3s ease;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-}
-
-#contadorStart:hover {
-    transform: scale(1.1);
-}
-
-#zerarContador:hover {
-    transform: scale(1.1);
+#contadorValor {
+    font-size: 36px;
+    color: #333;
 }
 
 .alterarCor {
     text-align: center;
-    margin: 0 auto;
-    color: #000;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    width: 600px;
-    border-radius: 5px;
 }
 
 #corTexto {
-    padding-top: 12px;
-    font-size: 12pt;
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 30px;
 }
 
-#clickCor,
-#clickCorMove {
-    margin-bottom: 12px;
-    padding: 5px;
-    border: none;
-    background: transparent;
-    border-radius: 5px;
-    gap: 5px;
-    cursor: pointer;
-}
-
-.listas{
+.listas {
     text-align: center;
-    color: #000;
-    background-color: #fff;
-    width: 600px;
-    width: 600px;
+}
+
+.titulo {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#listaTarefa input[type='checkbox'] {
+    margin-right: 10px;
+    transform: scale(1.5); /* Aumenta o tamanho da checkbox */
+}
+
+#listaTarefa input[type='checkbox']::before {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4CAF50;
     border-radius: 5px;
-    margin: 0 auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
-.titulo{
-padding-top: 8px;
-}
-
-#listaTarefa{
-    padding-bottom: 15px;
+#clickCor, #clickCorMove {
+    margin-top: 20px;
 }
